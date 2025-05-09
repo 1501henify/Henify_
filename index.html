@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Henify_</title>
+    <script>
+      if (window.innerWidth > 768) {
+        window.location.replace('desktop.html');
+      }
+    </script>
+    <!-- font _ Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/ed0613d0a2.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- <link
+      rel="stylesheet"
+      href="assets/fontawesome-free-6.6.0-web/css/all.css"
+    /> -->
+
+    <!-- Style -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" />
+  </head>
+  <body>
+    <div class="translate">
+      <select id="language-switcher" title="Select Language">
+        <option value="en">English</option>
+        <!-- De - Englisch -->
+        <option value="de">Deutsch</option>
+      </select>
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="#aboutPage" id="about">About</a></li>
+        <li><a href="#projectsPage" id="projects">Projects</a></li>
+        <li><a href="#contactPage" id="contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section class="home">
+      <div class="info-text">
+        <h1><a href="index.html">Henry Ifeanyi</a></h1>
+        <h3 id="jobTitle">Website Developer</h3>
+        <p id="homeDesc">
+          Henify_ Focuses on building accessible, and user friendly websites.
+        </p>
+      </div>
+
+      <div class="info-icons">
+        <ul>
+          <li>
+            <a
+              href="https://github.com/1501henify"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><i class="fab fa-github"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/henry-okeke-0465b9350?trk=contact-info"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://join.slack.com/shareDM/zt-351j2ihgm-9U~dL7jlej6~AL4RG9gQ3A"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><i class="fab fa-slack"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://wa.me/2348160813334"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><i class="fab fa-whatsapp"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="aboutPage" class="about">
+      <h1 id="aboutTitle">ABOUT</h1>
+      <p id="aboutP1" class="aboutP1">
+        I’m a passionate tech enthusiast with a strong drive toward full stack
+        web development and cybersecurity. When I'm not studying, I build,
+        create and style various user interfaces <b>(UI)</b>, and continue to
+        sharpen my skills in React, Node.js, Express.js, and MongoDB.
+      </p>
+
+      <p id="aboutP2" class="aboutP2">
+        My stack suffices <b>MERN</b> (<b class="tak">MongoDB</b>,
+        <b class="tak"> Express.js</b>, <b class="tak"> React</b>,
+        <b class="tak"> Node.js</b>), and GitHub for website development and
+        version control, and I’m always learning how to build scalable, secure,
+        and user friendly websites. During my leisure, I’ve taken it upon myself
+        to teach HTML and CSS in outreach classes, helping beginners get started
+        in web development.
+      </p>
+
+      <p id="aboutP3" class="aboutP3">
+        I’m deepening my understanding of backend systems, server
+        <b class="tak">APIs</b>, and even security engineering concepts to
+        expand my capabilities beyond the frontend.
+        <b class="tak">My</b> current workflow includes tools like
+        <b>Visual Studio Code</b> and <b>PyCharm</b>, and I’m continuously
+        refining my skills in JavaScript and Python to match
+        <b class="tak">global</b> standards—especially in preparation for
+        international opportunities, like working in
+        <b class="tak">Germany’s</b> tech ecosystem.
+      </p>
+
+      <p id="aboutP4" class="aboutP4">
+        Whether it’s writing <b class="tak">multilingual code</b>, exploring
+        security best practices, or building real projects from scratch, I bring
+        both <b class="tak">passion</b> and discipline to everything I do. My
+        journey is driven by more than just a <b class="tak">love</b> for
+        code—it's about building a future where I can create, contribute, and
+        thrive <b class="tak">globally</b>.
+      </p>
+
+      <p id="aboutP5" class="aboutP5">Henify_</p>
+    </section>
+
+    <section id="projectsPage" class="projects">
+      <h1 id="projectsTitle">PROJECTS</h1>
+      <div class="pro-card">
+        <h3>
+          <a
+            href="https://github.com/1501henify/CSS_Intro"
+            rel="noopener noreferrer"
+            target="_blank"
+            id="cssIntroTitle"
+            class="cssIntroTitle"
+            >CSS Intro <span>&#8599;</span></a
+          >
+        </h3>
+        <p id="cssDesc" class="cssDesc">
+          A followed beginner friendly youtube tutorial video course by
+          <a
+            href="https://youtube.com/@traversymedia?si=rlugzAA0gD6-DKwj"
+            rel="noopener noreferrer"
+            target="_blank"
+            >Brad Traversy</a
+          >, Deutsch(German) inspired, this project was guide on learning HTML
+          and CSS. Topics covered include the HTML5 syntax, VSCode setup, CSS
+          Box Model, and more.
+        </p>
+
+        <p class="stars" id="star-count-1"></p>
+
+        <ul class="stack">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+
+        <div class="img">
+          <img
+            src="https://github.com/1501henify/CSS_Intro/raw/main/IMAGE%2Facme_Deutsch.jpg"
+            alt="Acme Website"
+          />
+        </div>
+      </div>
+
+      <div class="pro-card">
+        <h3>
+          <a
+            href="https://github.com/1501henify/Snow-animation"
+            rel="noopener noreferrer"
+            target="_blank"
+            id="snowAnimationTitle"
+            class="snowAnimationTitle"
+            >Snow Animation <span>&#8599;</span></a
+          >
+        </h3>
+        <p id="snowDesc" class="snowDesc">
+          A simple website for visualizing Javascript as it was used to stylize
+          an effect on a webpage to give a <b>snowing effect</b>; also
+          Deutsch(German) inspired, it's a simple light button Javascript ran
+          animation, the snowing was the focus, it's beginner friendly.
+        </p>
+
+        <p class="stars" id="star-count-2"></p>
+
+        <ul class="stack">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+
+        <div class="img">
+          <img
+            src="https://github.com/1501henify/Snow-animation/raw/myBranch/bild%2FLight_index.html.png"
+            alt="Schneesturm-web"
+          />
+        </div>
+      </div>
+
+      <div class="pro-card">
+        <h3>
+          <a
+            href="https://github.com/1501henify/henify-Observer-API"
+            rel="noopener noreferrer"
+            target="_blank"
+            id="observerTitle"
+            class="observerTitle"
+            >Observer & Counter <span>&#8599;</span></a
+          >
+        </h3>
+        <p id="observerDesc" class="observerDesc">
+          Observer-API with javascript, this was used in creating an effect,
+          that when in view the counting starts. This feature is seen
+          <a
+            href="https://1501henify.github.io/frontend-project-idea/assets/HTML/about.html"
+            rel="noopener noreferrer"
+            target="_blank"
+            >here</a
+          >
+          in my
+          <a href="https://phlox.pro" rel="noopener noreferrer" target="_blank"
+            >Phlox</a
+          >
+          inspired website; also beginner friendly.
+        </p>
+
+        <p class="stars" id="star-count-3"></p>
+
+        <ul class="stack">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+
+        <div class="img">
+          <img
+            src="https://github.com/1501henify/henify-Observer-API/raw/main/IMAGE%2Fconter_observer.jpg"
+            alt="Observer counter"
+          />
+        </div>
+      </div>
+
+      <div class="pro-card">
+        <h3>
+          <a
+            href="https://github.com/1501henify/Learning-Python"
+            rel="noopener noreferrer"
+            target="_blank"
+            id="pythonTitle"
+            class="pythonTitle"
+            >Python <span>&#8599;</span></a
+          >
+        </h3>
+        <p id="pythonDesc" class="pythonDesc">
+          Currently learning Python alongside Python frameworks like;
+          <b class="tak">Django</b> and <b class="tak">Flask</b> with website
+          development support.
+        </p>
+
+        <p class="stars" id="star-count-4"></p>
+
+        <ul class="stack">
+          <li>Python</li>
+          <li>Github</li>
+          <li>PyCharm</li>
+        </ul>
+
+        <div class="img">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSNyJCLhSaEC0XxhASnf_vvlo5jzqcWCIBm9wrr7mlqzaVuZCLHcUc-K8&s=10"
+            alt="Learning Python"
+          />
+        </div>
+      </div>
+
+      <p>
+        <a
+          href="https://github.com/1501henify?tab=repositories"
+          rel="noopener noreferrer"
+          target="_blank"
+          id="repoView"
+          >View Repo's on Github <i class="fas fa-arrow-right"></i
+        ></a>
+      </p>
+    </section>
+
+    <section id="contactPage" class="contact">
+      <h1 id="contactTitle">CONTACT</h1>
+      <p>
+        <a
+          href="https://wa.me/2348160813334"
+          rel="noopener noreferrer"
+          target="_blank"
+          ><i class="fab fa-whatsapp"></i
+        ></a>
+        <span id="contactWa" class="contactWa">
+          Available for your website related projects, questions or interests;
+          just a <b class="tak">DM</b> away.
+        </span>
+      </p>
+
+      <p>
+        <a
+          href="https://join.slack.com/shareDM/zt-351j2ihgm-9U~dL7jlej6~AL4RG9gQ3A"
+          rel="noopener noreferrer"
+          target="_blank"
+          target="_blank"
+          ><i class="fab fa-slack"></i
+        ></a>
+        <span id="contactSlack" class="contactSlack">
+          I'm available to <b class="tak">contribute</b> to open source frontend
+          designs; Looking to <b class="tak">collaborate</b> on exiciting web
+          projects.
+        </span>
+      </p>
+    </section>
+
+    <footer>
+      <p id="bChiang" class="bChiang">
+        Website Inspired by
+        <a
+          href="https://brittanychiang.com/"
+          rel="noopener noreferrer"
+          target="_blank"
+          >Brittany Chiang</a
+        >
+      </p>
+
+      <p id="techStack" class="techStack">
+        This website was created and designed using HTML, CSS, and JavaScript.
+      </p>
+
+      <p class="footer-text">
+        &copy; 2025 <b class="tak">Henify_ .</b>
+        <span id="footer" class="footer"> All Rights Reserved.</span>
+      </p>
+    </footer>
+
+    <!-- Javascript -->
+    <script src="script.js"></script>
+    <script src="translate.js"></script>
+  </body>
+</html>
