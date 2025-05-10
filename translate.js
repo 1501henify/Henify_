@@ -10,8 +10,7 @@ const translations = {
 
     // Home Section
     jobTitle: 'Webseitenentwickler',
-    homeDesc:
-      'Henify_ konzentriert sich auf den Aufbau zugänglicher und benutzerfreundlicher Webseiten.',
+    homeDesc: `<span style="font-family: 'Great Vibes', cursive"> Henify_</span> konzentriert sich auf den Aufbau zugänglicher und benutzerfreundlicher Webseiten.`,
 
     // About Section
     aboutTitle: 'ÜBER MICH',
