@@ -45,7 +45,7 @@ const translations = {
     repoView: 'Alle Repositories ansehen...',
 
     // Contact Section
-    contactTitle: 'KONTAKTE',
+    contactTitle: 'KONTAKT',
     contactWa: `verfügbar für Website-bezongene projekte, Fragen oder Interessen; nur ein <b class="tak">dm</b> entfernt`,
     contactSlack: `Ich bin verfügbar, um zu Open-Source-frontend-Designs <b class="tak">beizutragen</b>. Ich mochte an aufregenden Webprojekten <b class="tak">zusammenarbeiten</b>.`,
 

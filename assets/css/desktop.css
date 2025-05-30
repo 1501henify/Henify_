@@ -5,6 +5,27 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/poppins/Poppins-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/poppins/Poppins-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/poppins/Poppins-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
 :root {
   --background-navy-clr: #0a192f;
   --background-lgt_navy-clr: #112240;
@@ -28,7 +49,7 @@ body {
   background-color: var(--background-navy-clr);
   position: relative;
   color: var(--text-clr);
-  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif;
   min-height: 100vh;
   line-height: 1.6;
   overflow-x: hidden;
